@@ -15,6 +15,12 @@ return [
                 'permission' => 'calendar.view'
             ],
             [
+                'name'  => 'Timer Board',
+                'icon'  => 'fa-clock-o',
+                'route' => 'timers.index',
+                'permission' => 'calendar.create'
+            ],
+            [
                 'name'  => 'Settings',
                 'icon'  => 'fa-cog',
                 'route' => 'setting.index',
